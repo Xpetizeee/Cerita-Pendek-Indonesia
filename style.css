@@ -1,0 +1,62 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center; /* Memposisikan konten secara horizontal ke tengah */
+    align-items: center; /* Memposisikan konten secara vertical ke tengah */
+    height: 100vh; /* Menggunakan seluruh tinggi viewport */
+}
+
+.cover {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    width:100%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background-photo {
+  background-image: url('images (1).jpeg'); /* Replace 'background.jpg' with your image file */
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+
+h5 {
+    position: absolute; /* Membuat teks menjadi posisi absolut */
+    bottom: 600px; /* Jarak dari bawah */
+    left: 10px; /* Jarak dari kiri */
+    font-size: 1rem;
+}
